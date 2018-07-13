@@ -1,5 +1,6 @@
 <<template>
   <section>
+    <div>
       <nav class="navbar is-transparent is-warning">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
@@ -37,17 +38,227 @@
                       </div>
                     </div>
                   </div>
-                </div>  
-              </p>
+                </p>
+             </div>
+           </div>
+          </div>
+       </div>
+     </nav>
+    </div>
+      
+    <div>
+      <section class="hero bg-img is-medium is-primary">
+        <div class="hero-head">
+          <div class="container">
+            <h1 class="title is-1 set-margin">
+              Welcome to Trip-Stamp
+            </h1>
+          </div>
+         </div>
+        <div class="hero-body">
+         <div class="container">
+           <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <h1 class="title">
+                Destination
+              </h1>
+            </div>
+          <div class="field-body">
+          <div class="field">
+           <p class="control has-icons-left has-icons-right">
+            <input class="input is-rounded is-centered is-medium is-transparent set-width" type="text" placeholder="search destination to vist">
+              <span class="icon is-small is-left">
+                <i class="fa fa-search"></i>
+             </span>
+           </p>
+          </div>
+         </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <hr>
+  <div>
+    <section class="hero is-bold">
+    <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Explore Different LandForms
+      </h1>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="@/assets/images/beach.jpg" alt="Placeholder image">
+              </figure>
+              <p>Beaches</p>
             </div>
           </div>
         </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="@/assets/images/mountain.jpg" alt="Placeholder image">
+              </figure>
+              <p>Mountains</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="@/assets/images/desert.jpg" alt="Placeholder image">
+              </figure>
+              <p>Deserts</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="@/assets/images/sunset.png" alt="Placeholder image">
+              </figure>
+              <p>Islands</p>
+            </div>
+          </div>      
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="@/assets/images/mountain.jpg" alt="Placeholder image">
+              </figure>
+              <p>Rivers</p>
+            </div>
+          </div> 
+        </div>
       </div>
-    </nav>
-    <div>
-      <figure class="image" style="background-position: 50% bottom">
-        <img src="https://static.tacdn.com/img2/branding/homepage/home-tab1-hero-1367x520-beach-prog.jpg">
-      </figure>
+    </div>
+  </div>
+  </section>
+  <hr>
+  <section class="hero is-info is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Explore cities
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
     </div>
   </section>
+  <hr>
+  <section class="hero is-warning is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Explore Towns
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="hero is-danger is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Explore Places
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="hero is-dark">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Gang-Up Trip
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Tourist Spots
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+         Road Trip
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+  </div>
+  <hr>
+  <div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Trip-Stamp</strong> by <a href="https://github.com/abhishek4kahol">Abhishek</a>.
+        
+        </p>
+      </div>
+  </footer>
+  </div>
+  </section>
 </template>
+<style>
+  .bg-img { 
+        background-image: url("https://static.tacdn.com/img2/branding/homepage/home-tab1-hero-1367x520-beach-prog.jpg") ;
+        background-position: 50% bottom;
+        background-repeat:  no-repeat;
+        /* background-attachment: fixed; */
+        /* background-size:  cover; */
+        background-color: #999;
+ }
+ .set-width {
+   width:70% !important;
+ }
+ .set-margin {
+   font-family: 'Gaegu', cursive;
+   margin-top: 8px;
+ }
+ .set-thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 1px;
+    /* background-color: #cbefd5; */
+}
+
+.set-thumbnail:hover {
+    /* box-shadow: 0 0 2px 1px rgba(165, 222, 241, 0.5); */
+    cursor: pointer;
+    opacity: 0.7;
+}
+</style>
