@@ -1,7 +1,7 @@
 <<template>
   <section>
     <div>
-      <nav class="navbar is-transparent is-warning">
+      <nav class="navbar is-transparent is-warning is-fixed-top has-shadow">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
@@ -44,19 +44,21 @@
           </div>
        </div>
      </nav>
-    </div>
-      
+    </div>   
     <div>
       <section class="hero bg-img is-medium is-primary">
-        <div class="hero-head">
+        <!-- <div class="hero-head">
           <div class="container">
-            <h1 class="title is-1 set-margin">
+            <h1 class="title is-1">
               Welcome to Trip-Stamp
             </h1>
           </div>
-         </div>
+         </div> -->
         <div class="hero-body">
          <div class="container">
+                       <h1 class="title is-1 set-margin">
+              Welcome to Trip-Stamp
+            </h1>
            <div class="field is-horizontal">
             <div class="field-label is-normal">
               <h1 class="title">
@@ -78,66 +80,71 @@
       </div>
     </section>
   </div>
-  <hr>
   <div>
     <section class="hero is-bold">
     <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Explore Different LandForms
-      </h1>
-      <div class="columns">
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/assets/images/beach.jpg" alt="Placeholder image">
-              </figure>
-              <p>Beaches</p>
+      <div class="container">
+        <h1 class="title">
+          Explore Different LandForms
+        </h1>
+        <div class="columns is-multiline is-mobile is-centered">
+        <a class="button is-primary icon is-small is-left has-text-warning" style="display:block; margin-right:auto; height:229px; width: 41px; background-color: #F1ECE7; border-radius: 25px;">
+          <i class="fas fa-2x	fa-arrow-left" style="padding-top: 92px;"></i>
+        </a>
+          <div class="column" style="min-width: 150px; max-width: 228px;">
+            <div class="card" style="min-width: 150px; max-width: 228px;">
+              <div class="card-image">
+                <figure class="image tooltip">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                  <span class="tooltiptext">Tooltip text</span>
+                </figure>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/assets/images/mountain.jpg" alt="Placeholder image">
-              </figure>
-              <p>Mountains</p>
+          <div class="column" style="min-width: 150px; max-width: 228px;">
+            <div class="card" style="min-width: 150px; max-width: 228px;">
+              <div class="card-image">
+                <figure class="image tooltip">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                  <span class="tooltiptext">Tooltip text</span>
+                </figure>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/assets/images/desert.jpg" alt="Placeholder image">
-              </figure>
-              <p>Deserts</p>
+          <div class="column" style="min-width: 150px; max-width: 228px;">
+            <div class="card" style="min-width: 150px; max-width: 228px;">
+              <div class="card-image">
+                <figure class="image tooltip">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                  <span class="tooltiptext">Tooltip text</span>
+                </figure>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/assets/images/sunset.png" alt="Placeholder image">
-              </figure>
-              <p>Islands</p>
+          <div class="column" style="min-width: 150px; max-width: 228px;">
+            <div class="card" style="min-width: 150px; max-width: 228px;">
+              <div class="card-image">
+                <figure class="image tooltip">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                  <span class="tooltiptext">Tooltip text</span>
+                </figure>
+              </div>
             </div>
-          </div>      
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="@/assets/images/mountain.jpg" alt="Placeholder image">
-              </figure>
-              <p>Rivers</p>
+          </div>
+          <div class="column" style="min-width: 150px; max-width: 228px;">
+            <div class="card" style="min-width: 150px; max-width: 228px;">
+              <div class="card-image">
+                <figure class="image tooltip">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+                  <span class="tooltiptext">Tooltip text</span>
+                </figure>
+              </div>
             </div>
-          </div> 
+          </div>
+          <a class="button is-primary icon is-small is-left has-text-warning" style="display:block; margin-left:auto;height:229px; width: 41px; background-color: #F1ECE7; border-radius: 25px;">
+            <i class="fas fa-2x	fa-arrow-right" style="padding-top: 92px;"></i>
+          </a>
         </div>
-      </div>
     </div>
   </div>
   </section>
@@ -146,11 +153,9 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">
-         Explore cities
+         Create Your List From
         </h1>
-        <h2 class="subtitle">
-          Primary subtitle
-        </h2>
+
       </div>
     </div>
   </section>
@@ -233,6 +238,17 @@
   </div>
   </section>
 </template>
+<script>
+export default {
+  name: 'Home',
+  data () {
+    return {
+
+    }
+  }
+}
+</script>
+
 <style>
   .bg-img { 
         background-image: url("https://static.tacdn.com/img2/branding/homepage/home-tab1-hero-1367x520-beach-prog.jpg") ;
@@ -247,7 +263,7 @@
  }
  .set-margin {
    font-family: 'Gaegu', cursive;
-   margin-top: 8px;
+   /* margin-top: 8px; */
  }
  .set-thumbnail {
     border: 1px solid #ddd;
@@ -255,10 +271,41 @@
     padding: 1px;
     /* background-color: #cbefd5; */
 }
-
 .set-thumbnail:hover {
     /* box-shadow: 0 0 2px 1px rgba(165, 222, 241, 0.5); */
     cursor: pointer;
     opacity: 0.7;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #00DCB5;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #00DCB5;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    position: absolute;
+    z-index: 1;
+    bottom: 102%;
+    left: 50%;
+    margin-left: -60px;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #00DCB5 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 </style>
