@@ -6,13 +6,20 @@
           <a class="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
           </a>
+              <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
         </div>
-        <div class="navbar-end">
+        
+        <div id="navbarExampleTransparentExample" class="navbar-menu" :class="{ 'is-active': showNav }">
+          <div class="navbar-end">
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
                 <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link " href="#blog/">
+                  <a class="navbar-link">
                     <span class="icon user-icon is-medium">
                       <i class="far fa-user"></i>
                     </span>
@@ -42,6 +49,7 @@
            </div>
           </div>
        </div>
+        </div>
      </nav>
     </div>   
     <div>
@@ -91,7 +99,7 @@
           <i class="fas fa-2x	fa-arrow-left has-text-warning has-shadow is-bold" style="padding-top: 92px;"></i>
         </a> -->
           <div class="column " style="min-width: 150px; max-width: 228px;">
-            <div class="card set-thumbnail" style="min-width: 150px; max-width: 228px;" v-on:click="getInfo()">
+            <div class="card set-thumbnail" style="min-width: 150px; max-width: 228px;" v-on:click="getPlaceInfo()">
               <div class="card-image">
                 <figure class="image tooltip">
                   <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
@@ -131,19 +139,20 @@
             </div>
           </div>
           <div class="column" style="min-width: 150px; max-width: 228px;">
-            <div class="card" style="min-width: 150px; max-width: 228px;">
+            <div class="card" style="min-width: 150px; max-width: 228px;background-color: #00D1B2;">
               <div class="card-image">
-                <figure class="image tooltip">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
-                  <span class="tooltiptext">Tooltip text</span>
+                <figure class="image tooltip is-centered" style="height: 206px;">
+                  <!-- <img src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image"> -->
+                  <i class="fas fa-2x	fa-arrow-right" style="color:#ffdd57;margin-top: 85px;margin-left: 81px;"></i>
+                  <span class="tooltiptext">Explore more</span>
                 </figure>
               </div>
             </div>
           </div>
-          <a class="button icon is-small is-left has-text-warning is-outlined tooltip" style="display:block; margin-left:auto;height:229px; width: 41px; background-color: #F1ECE7; border-radius: 25px;">
+          <!-- <a class="button icon is-small is-left has-text-warning is-outlined tooltip" v-on:click="getInfo()" style="display:block; margin-left:auto;height:229px; width: 41px; background-color: #F1ECE7; border-radius: 25px;">
             <i class="fas fa-2x	fa-arrow-right" style="padding-top: 92px;"></i>
               <span class="tooltiptext">Explore more</span>
-          </a>
+          </a> -->
         </div>
     </div>
   </div>
@@ -172,7 +181,7 @@
             </div>
             <div class="level-item has-text-centered">
               <div>
-                 <p class="heading">Union-territories</p>
+                 <p class="heading">Union</p>
                  <p class="title">7</p>
               </div>
             </div>
@@ -276,18 +285,23 @@ export default {
   name: "home",
   data() {
     return {
-      message: "Hello"
+      message: "Hello",
+      showNav: false
     };
   },
   methods: {
     getInfo: function() {
-      console.log("click success");
       this.$router.push({
         name: "CategoryPage",
         query: {
           data: "this is the Category Page"
         }
       });
+    },
+    getPlaceInfo: function() {
+      this.$router.push({
+        name: "PlacePage"
+      });       
     }
   }
 };

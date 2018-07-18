@@ -44,76 +44,196 @@
        </div>
      </nav>
     </div>   
-    <!-- <div>
-      <section class="hero bg-img1 is-medium is-primary">
-        <div class="hero-body">
-         <div class="container">
-            <h1 class="title is-1 set-margin">
-                {{CategoryName}}
-            </h1>
-              <h1 class="title">
-                Get out and Explore the fields and details about the page
-              </h1>
-        </div>
-      </div>
-    </section>
-  </div> -->
-  <div>
+    <div>
       <section class="hero is-primary is-medium">
-          <div class="hero-game-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))">
-              <!-- , url(&quot;https://mythril.nyc3.cdn.digitaloceanspaces.com/games/banners/4.jpeg&quot;); -->
+        <div class="hero-game-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))">
           <div class="hero-body">
-              <div class="container cover-title is-clearfix">
-                    <span class="is-pulled-left">
-                        <h1 class="title">
-                            A Place landing page
-                        </h1> 
-                        <h2 class="subtitle">
-                            name of the state: <em>
-                            <a href="/games?developer=3" class="dotted-border">Name</a></em>
-                        </h2>
-                    </span> 
-                </div>
+            <div class="container is-clearfix">
+              <span class="is-pulled-left">
+                <h1 class="title">Gallery</h1> 
+                  <h2 class="subtitle">
+                    name of the state: 
+                    <em>
+                      <a href="/games?developer=3" class="dotted-border">Name</a></em>
+                  </h2>
+              </span> 
             </div>
+          </div>
         </div>
     </section>
     <section class="tab-container">
-        <div class="container cover-nav">
-            <div class="tabs is-toggle">
-                <ul>
-                    <li class="router-link-exact-active is-active">
-                        <a href="/games/4/">Summary</a>
-                    </li> 
-                    <li class="">
-                        <a href="/games/4/reviews">Reviews</a>
-                    </li>
-                    <li class="">
-                        <a href="/games/4/recommendations">Recommendations</a>
-                    </li> 
-                    <li class="">
-                        <a href="/games/4/releases">Releases</a>
-                    </li>
-                    <li class="">
-                        <a href="/games/4/stats">Stats</a>
-                    </li>
+      <div class="container cover-nav">
+        <div class="tabs is-toggle">
+          <ul>
+            <li class="router-link-exact-active is-active">
+              <a href="/games/4/">Photos</a>
+                </li> 
+                  <li class="">
+                    <a href="/games/4/reviews">Reviews</a>
+                  </li>
+                  <li class="">
+                    <a href="/games/4/recommendations">Rating</a>
+                  </li> 
+                  <li class="">
+                    <a href="/games/4/releases">Location</a>
+                  </li>
+                  <li class="">
+                    <a href="/games/4/stats">Blog</a>
+                  </li>
                 </ul>
-            </div>
-        </div>
-    </section>
-  </div>
-  <div>
-    <section class="section">
-    <div class="container">
-      <h1 class="title">Section</h1>
-      <h2 class="subtitle">
-        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-      </h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Etiam egestas wisi a erat. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Aenean placerat. Suspendisse nisl. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Aenean id metus id velit ullamcorper pulvinar. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna.</p>
-
-<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Aliquam id dolor. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Curabitur sagittis hendrerit ante. Fusce wisi. Integer tempor. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vivamus luctus egestas leo. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Aenean fermentum risus id tortor. Nullam at arcu a est sollicitudin euismod. Nullam sit amet magna in magna gravida vehicula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Etiam egestas wisi a erat. Integer tempor. Nunc auctor. Maecenas aliquet accumsan leo. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nullam rhoncus aliquam metus.</p>
+              </div>
+          </div>
+      </section>
     </div>
-  </section>
+    <section class="section">
+      <div class="container is-clearfix">
+        <div class="cover-sidebar is-pulled-right is-hidden-touch">
+          <div class="content">
+            <h4 class="heading">Recommendations</h4> 
+              <div>
+                <h4>Popular</h4> 
+                <div class="field has-addons is-marginless">
+                  <p class="control">
+                    <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                      <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+                    </figure>
+                  </p>
+                  <p class="control">
+                    <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                      <h4 style="padding-left: 10px;">Name of the place</h4>
+                      <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+                    </a>
+                  </p>
+                </div> 
+                <div class="field has-addons is-marginless">
+                <p class="control">
+                  <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+                  </figure>
+                </p>
+                <p class="control">
+                  <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                    <h4 style="padding-left: 10px;">Name of the place</h4>
+                    <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+                  </a>
+                </p>
+                </div> 
+                <div class="field has-addons is-marginless">
+                  <p class="control">
+                    <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                      <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+                    </figure>
+                  </p>
+                  <p class="control">
+                    <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                      <h4 style="padding-left: 10px;">Name of the place</h4>
+                      <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+                    </a>
+                  </p>
+                </div> 
+                <div class="field has-addons is-marginless">
+                  <p class="control">
+                    <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                      <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+                    </figure>
+                  </p>
+                  <p class="control">
+                    <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                      <h4 style="padding-left: 10px;">Name of the place</h4>
+                      <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+                    </a>
+                  </p>
+                </div>
+                <div class="field has-addons is-marginless">
+                <p class="control">
+                  <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+                  </figure>
+                </p>
+                <p class="control">
+                  <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                    <h4 style="padding-left: 10px;">Name of the place</h4>
+                    <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+                  </a>
+                </p>
+              </div> 
+              <div class="field has-addons is-marginless">
+                <p class="control">
+                  <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+                  </figure>
+                </p>
+                <p class="control">
+                  <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                    <h4 style="padding-left: 10px;">Name of the place</h4>
+                    <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+                  </a>
+                </p>
+              </div> 
+            <div class="field has-addons is-marginless">
+            <p class="control">
+              <figure class="image is-48x48" style="    margin-top: -9px; margin-left: 0px;">
+                <img src="https://bulma.io/images/placeholders/128x128.png" style="border-radius:12px; margin-top:0px;">
+              </figure>
+            </p>
+            <p class="control">
+              <a class="heading" style="margin-left: -33px;width: 191px;border: 2px solid #dbdbdb;margin-top: -4px;border-radius: 5px;border-left: 0px;">
+                <h4 style="padding-left: 10px;">Name of the place</h4>
+                <h5 style="padding-left: 10px; line-height:0.1;font-size: 10px;">Location of the place.</h5>
+              </a>
+            </p>
+          </div>  
+        </div> 
+      </div>
+    </div>
+    <div class="cover-content">
+      <div>
+        <section class="hero is-primary is-medium" style="margin-left:-10px">
+          <div class="hero-game-bg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))">
+            <div class="hero-body">
+              <div class="container is-clearfix">
+                <span class="is-pulled-left">
+                  <h1 class="title">A Place landing page</h1> 
+                  <h2 class="subtitle">
+                    name of the state: 
+                    <em>
+                      <a href="/games?developer=3" class="dotted-border">Name</a>
+                    </em>
+                  </h2>
+                </span> 
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="content">
+          <h2>Description</h2> 
+          <p>With the help of his allies including pirate captain Tetra and a talking boat named the King of Red Lions, Link attempts to save his sister from the sorcerer Ganon.</p>
+        </div> 
+        <div class="content">
+          <h2>Recent Reviews</h2>
+        </div> 
+        <div>
+          <article class="message is-warning">
+            <div class="message-body">
+              No reviews found. Be the first to write one! 
+              <a href="/reviews/create?game=19" class="">Write a Review</a>
+            </div>
+          </article>
+        </div> 
+        <br> 
+        <div class="content">
+          <h2>Recommendations</h2>
+        </div> 
+        <article class="message is-warning">
+          <div class="message-body">
+            No recommendations found. Be the first to write one!
+            <a href="/recommendations/create" class="">Write a Recommendation</a>
+          </div>
+        </article>
+      </div>
+    </div>
   </div>
+  </section>
   <div>
     <footer class="footer">
       <div class="content has-text-centered">
@@ -127,20 +247,20 @@
 </template>
 <script>
 export default {
-  name: "PlacePage",
-  data() {
-    return {
-      CategoryName: ""
-    };
-  },
-  mounted: function() {
-    this.showPage(this.$route.query.data);
-  },
-  methods: {
-    showPage: function(data) {
-      this.CategoryName = data;
-    }
-  }
+  name: "PlacePage"
+  // data() {
+  //   return {
+  //     CategoryName: ""
+  //   };
+  // },
+  // mounted: function() {
+  //   this.showPage(this.$route.query.data);
+  // },
+  // methods: {
+  //   showPage: function(data) {
+  //     this.CategoryName = data;
+  //   }
+  // }
 };
 </script>
 <style>
@@ -194,6 +314,10 @@ export default {
   visibility: visible;
 }
 .tab-container {
-    box-shadow: inset 0px 0px 0px 1px #dbdbdb;
+  box-shadow: inset 0px 0px 0px 1px #dbdbdb;
+}
+.cover-sidebar {
+  position: relative;
+  width: 239px;
 }
 </style>
